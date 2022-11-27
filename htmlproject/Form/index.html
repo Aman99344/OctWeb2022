@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="Submit">
+        <fieldset>
+            <legend>Personal Details</legend>
+
+            <label for="salutation">Salutation</label> <br>
+            <select required>
+                <option value="">--None--</option>
+                <option value="mr">MR</option>
+                <option value="mrs">MRS</option>
+                <option value="smt">SMT</option>
+            </select><br><br>
+
+
+            <label for="fname">First name:</label>
+            <input type="text" name="fname" id="fname" required><br><br>
+
+            <label for="lname">Last name: </label>
+            <input type="text" name="lname" id="lname" required><br><br>
+
+            <label for="gender">Gender</label>
+            <input type="radio" name="male" id="male" required>
+            <label for="male">Male</label>
+            <input type="radio" name="male" id="male" required>
+            <label for="female">Female</label><br><br>
+
+            <label for="email">Email: </label>
+            <input type="email" name="" id="" required><br><br>
+            <label for="dob">Date of Birth: </label>
+            <input type="date" name="dob" id="dob" required> <br><br>
+
+            <label for="address">Address: </label><br>
+            <textarea name="address" id="address" cols="30" rows="5" required></textarea><br><br>
+
+            <button>Submit</button>
+
+
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
