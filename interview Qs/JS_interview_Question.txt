@@ -1,0 +1,82 @@
+JAVASCRIPT
+
+-what is Hoisting in javascript?
+    Hoisting in JS is the concept to move scope of variables, functions and classes on the top of program
+    because of hoisting we can access variables functions and classes before initialization
+
+-Are var let and const hoisted in js?
+    yes, var let and const all are hoisted in JS var is hoisted in Global Execution context but const and let are hoisted 
+    separately in a Execution context named script
+    if we try to access var types of variables before initialization we will get special keyword "undefined" but if we try to 
+    access let and const before initialization we will get a reference error stating cannot access before initialization this 
+    is because they are in temporal dead zone
+
+-what is temporal dead zone
+    block in which let and const type of variables are inaccessible this block in which the let or const variable is 
+    declared till that variable is being initialized 
+
+-difference between var let and const (5 points each)
+    var and let can be declared without initialization but const cant be declared without initialization
+    var is either functional or global scoped and let and const are blocked scoped
+    var can be redeclared or updated let can be updated but cant be redeclared const can neither be updated nor redeclared
+    var let and const are hoisted var in global Execution context let and const in local Execution context
+    we can access var before initialization but let and const cantbe accessed before initialization
+
+-what is block in js
+    {} => this what a block is in js
+    A block in JavaScript is used to group zero or more statements with curly braces ( {} )
+    a block is that part of program in which js expects only one statement and we pass multiple statements
+
+-what is shadowing in js
+    when we declare 2 variables with same name one outside the block and other inside the block now the value which is 
+    assigned inside the block is strored in memory this is what shadowing is
+
+-what is illegal shadowing in js
+    if we try to shadow a variable and it crosses the boundaries of its scope this is called illegal shadowing
+
+-concept of closures in js 
+    a function binded together with its lexical scope is clouser
+    suppose we declare a function a and insde that function a we declare another function b now from the function a we return
+    function b and we store that return value in a variable now if we want to access that inner function even after 1000 lines
+    of code we can do it bcoz of clousers in js an it remembers its origin
+
+
+what is the difference between shallow copy and deep  copy in js
+    Shallow Copy stores the references of objects to the original memory address whereas Deep copy stores copies of the 
+    object’s value.
+    Shallow Copy reflects changes made to the new/copied object in the original object.	Deep copy doesn’t reflect changes 
+    made to the new/copied object in the original object.
+    Shallow copy is faster.	Deep copy is comparatively slower.
+
+difference between undefined and not defined
+    undefined is special keyword in js whereas not defined is an error (reference type)
+    undefined is stored in front of var type of variable for temporary basis from place where they are declared till they are
+    initialized
+    undefined comes when we use something before initialization not defined comes when we use something which is not even 
+    declared in our program
+
+higher order function in js
+    the functions which take another function as a parameter or retun them are known as higher order functions
+    there are three higher order function map filter AND reduce
+
+what are map filter and reduce function
+    map filter and reduce are higher order functions they are used only with arrays not with anything else
+    map is used to iterate each and every element of array and change it
+    filter is used to iterate each and every element of array an print/select it if they fall under given condition
+    recuce is used to return single value from array after performing certain operation such as MULT, DIV, ADD, SUB
+
+what are promises in js
+    cant write can only expalin this !!!!!
+
+why we use async await
+    when we use promises there is a long chain oh .then to avoid this chain we use async await in js
+    async and await make promises easier to write"
+    async makes a function return a Promise await makes a function wait for a Promise
+
+callback function in js 
+    A callback is a function passed as an argument to another function
+    This technique allows a function to call another function
+    A callback function can run after another function has finished
+    
+event loop in js
+    iska ans will send as a pic
