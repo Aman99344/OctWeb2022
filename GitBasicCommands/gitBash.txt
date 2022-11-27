@@ -1,0 +1,52 @@
+git --version
+
+git status
+
+git config --global user.name "aman"
+
+git config --global user.email "amangupta@gmail.com"
+
+
+git --version --> git check
+
+git init -- > initialize 
+
+git add fileName - add file to stage area
+
+git add . --> add all file to stage area.
+
+git reset -> to unstage changes.
+
+git commit -m "message" --> commit the changes
+
+git branch -m Main -- create branch
+
+git checkout -- > branch change
+
+git branch -- > check branches
+
+git push -u origin Main --> push code to remote
+
+git branch --delete branchName -- delete branch
+
+git pull -- remote to local
+
+git clone - clone repo
+
+.gitignore --> file name inside will ignore
+
+fork -- fork remote repo.
+
+version control 
+
+what is git -- git is a distrubuted version control system.
+               it track the changes.
+Difference between git and github.
+git be use locally. 
+
+
+
+
+                         
+
+

@@ -1,0 +1,37 @@
+Which Command is used to show limited number of commits?
+A. git fetch
+--B. git log -n
+C. git config
+D. git status
+
+
+Git is a .................... Version Control tool.
+--A. Decentralized
+B. Centralized
+
+
+The main objectives of Git are -
+A. speed
+B. data integrity
+C. support for distributed non-linear workflows
+--D. All of the above
+
+In Git, if you want to make your local repository reflect changes that have been made in a remote (tracked) repository, you should run the pull command
+--A. True
+B. False
+
+
+
+Which of the following command line environment is used for interacting with Git ?
+--A. Git Bash
+B. GitHub
+C. Git Boot
+D. Git Lab
+
+
+_____________ command renames the current branch to
+A. git remote rm
+--B. git branch -m
+C. git branch -D (CAPS)
+D. git rebase
+

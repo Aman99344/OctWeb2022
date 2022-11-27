@@ -1,0 +1,52 @@
+pwd --> present working directory.
+
+
+ls -->  list
+
+. -->   hidden folder
+
+
+ls - la -->  hidden file
+
+cd -  change directory
+
+cd ..  -->  privious directory
+
+mkdir --  make directory use {} bracket to create multiple directory
+
+touch -  create file.
+
+
+cat -- read content in a file.
+
+Editors
+1.vim
+2.nano
+
+
+echo - powershell file create.
+
+vim
+
+:wq - save and quit
+i -  to get in insert mode.
+esc - to get out of insert mode.
+
+
+cp - make copy of file.
+
+mv - rename
+mv file.txt renameFile.txt
+
+mv  - move file give path 
+
+remove
+rm - remove file
+rm -rf - remove folder
+
+rmdir - remove empty folder
+
+
+Advance
+
+mkdir -p parentfolder/{subfolder1,subfolder2,subfolder3}
