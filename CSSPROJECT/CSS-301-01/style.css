@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainContainer {
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+}
+
+.mainContainer h2 {
+    margin-bottom: 20px;
+}
+
+.container {
+    height: 30vh;
+    width: 40vw;
+    /* border: 2px solid black; */
+    display: flex;
+}
+
+.leftContainer {
+    width: 40%;
+    height: 30vh;
+    /* border: 2px solid green; */
+    transform: perspective(800px) rotateX(357deg);
+    transform-origin: -200% 73%;
+    background-color: #5d5d5d;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.lefth1 {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 60px;
+    margin-right: 25px;
+
+
+}
+
+.middleContainer {
+    width: 20%;
+    height: 30vh;
+    /* border: 2px solid blue; */
+    transform: perspective(800px) rotateX(353deg);
+    transform-origin: -200% 55%;
+    background-color: #3a3a3a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middleh1{
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 60px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.rightContainer {
+    width: 40%;
+    height: 30vh;
+    /* border: 2px solid blue; */
+    transform: perspective(800px) rotateX(356deg);
+    transform-origin: -270% 40%;
+    background-color: #111111;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.righth1{
+    color: #0d9db6;
+    font-family: sans-serif;
+    font-size: 60px;
+    margin-left: 25px;
+    font-weight: bolder;
+}
+
+
+
+
+
+.paragraph {
+    /* border: 2px solid gold; */
+    width: 35%;
+    margin-top: 30px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: "Semibold";
+    line-height: 1.2;
+}
+
+.para2 {
+    margin-top: 10px;
+    width: 35%;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: "Semibold";
+    line-height: 1.2;
+}
+
+.footerPara {
+    margin-top: 50px;
+
+}
