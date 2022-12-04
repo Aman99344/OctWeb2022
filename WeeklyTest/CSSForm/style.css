@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainContainer {
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 50px;
+}
+
+.accdob{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #e5a839;
+}
+.heading {
+    display: flex;
+    padding-left: 10px;
+}
+
+.heading .gen{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 220px;
+    color: #e5a839;
+}
+
+.inputContainer {
+    margin-top: 14px;
+    background-color: #f9f9f9;
+    border: 2px solid #f9f9f9;
+}
+
+.inputContainer input {
+    width: 300px;
+    height: 30px;
+    margin: 5px;
+    border-style: none;
+    background-color: #f9f9f9;
+}
+.dobAndGender{
+    display: flex;
+}
+
+.dob input {
+ width: 80px;
+ height: 40px;
+ background-color: #f9f9f9;
+ border: 2px solid #f9f9f9;
+}
+
+.gender{
+    margin-left: 50px;
+}
+.gender input{
+ width: 80px;
+ height: 40px;
+ background-color: #f9f9f9;
+ border: 2px solid #f9f9f9;
+}
+
+.paymentDetails .creditCard{
+ width: 250px;
+ height: 50px;
+ background-color: #e5a839;
+ border: 2px solid #f9f9f9;
+ border-radius: 4px;
+}
+
+.paymentDetails .payPal{
+    width: 250px;
+    height: 50px;
+    background-color: #f9f9f9;
+    border: 2px solid #f9f9f9;
+    border-radius: 4px;
+
+}
+
+.carddetails .cardNo{
+    width: 500px;
+    height: 50px;
+    margin: 5px;
+    border-style: none;
+    background-color: #f9f9f9;
+}
+
+.carddetails .cvv{
+    width: 200px;
+    height: 50px;
+    margin: 5px;
+    border-style: none;
+    background-color: #f9f9f9;
+}
+
+.carddetails .cal{
+    width: 200px;
+    height: 50px;
+    margin: 5px;
+    border-style: none;
+    background-color: #f9f9f9;
+}
+
+.paymentDetails .payPal::placeholder{
+    color: #757575;
+    font-size: 18px;
+}
+
+.paymentDetails .creditCard::placeholder{
+    color: #ffffff;
+    font-size: 18px;
+}
+
+label{
+    color: gray;
+}
