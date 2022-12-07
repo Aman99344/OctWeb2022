@@ -124,4 +124,6 @@ padding-left: 25px;
   height: 64px;
 }
 
-
+.secondContainer p:hover{
+  color: #2874f0;
+} 
