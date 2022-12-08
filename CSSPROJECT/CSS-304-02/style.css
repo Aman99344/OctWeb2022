@@ -13,8 +13,8 @@
 }
 
 .subContainer {
-  width: 35%;
-  height: 70%;
+  width: 40%;
+  height: 80%;
   margin-top: 20px;
   background-color: black;
   /* border: 2px solid red; */
@@ -38,18 +38,28 @@ form {
   height: 50px;
   margin-bottom: 25px;
   padding-left: 10px;
+  border-style: none;
+  outline: none;
 }
 
-.calenderIcon {
+.calenderIconInput{
+  width: 90%;
+  height: 50px;
+  margin-bottom: 25px;
+  padding-left: 10px;
+  border-style: none;
+  outline: none;
+}
+
+.calenderIcon{
   display: flex;
-  position: relative;
 }
 
-.calenderIcon i {
-  position: absolute;
-  margin-left: 375px;
+ i {
   margin-top: 15px;
   color: grey;
+  position: absolute;
+  margin-left: 29%;
 }
 
 .checkBox{
@@ -74,9 +84,9 @@ a:link{
 .submitButton{
     display: flex;
     /* flex-direction: column; */
-    /* justify-content: center; */
+    justify-content: center;
     margin-top: 20px;
-    margin-left: 150px;
+    /* margin-left: 150px;  */
 }
 
 
@@ -88,8 +98,3 @@ a:link{
     color: white;
 }
 
-@media only screen and (min-width: 1000px) {
-  .subContainer{
-    width: 35%;
-  }
-}
