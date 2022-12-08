@@ -7,18 +7,17 @@
 .mainContainer {
   width: 100%;
   height: 100vh;
-  border: 4px solid green;
+  /* border: 4px solid green; */
   display: flex;
   justify-content: center;
 }
 
 .subContainer {
   width: 35%;
-  max-width: 35%;
   height: 70%;
   margin-top: 20px;
   background-color: black;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 h3 {
@@ -48,7 +47,7 @@ form {
 
 .calenderIcon i {
   position: absolute;
-  margin-left: 355px;
+  margin-left: 375px;
   margin-top: 15px;
   color: grey;
 }
@@ -87,4 +86,10 @@ a:link{
     background: transparent;
     border: 3px solid white;
     color: white;
+}
+
+@media only screen and (min-width: 1000px) {
+  .subContainer{
+    width: 35%;
+  }
 }
