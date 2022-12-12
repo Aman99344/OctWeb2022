@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.mainContainer {
+  width: 100%;
+  height: 100vh;
+  /* border: 2px solid red; */
+  display: flex;
+}
+
+.leftContainer {
+  width: 25%;
+  height: 100%;
+  background-color: #ebfaf9;
+  /* border: 2px solid blue; */
+}
+
+.leftContainerProfile {
+  width: 100%;
+  height: 20%;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.leftContainerProfile img {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+}
+.leftContainerProfile h4,
+.leftContainerProfile p {
+  color: #77899c;
+}
+
+.leftContainer .gameMenu {
+  width: 100%;
+  height: 55%;
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: center;
+}
+
+.strem,
+.games,
+.new,
+.library {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.leftContainer .gameMenu .gameMenuItem {
+  width: 50%;
+  height: 100%;
+  /* border: 4px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.leftContainer .gameMenu .gameMenuItem img {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.leftContainer .gameMenu .gameMenuItem p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #77899c;
+}
+
+.leftContainerBottom {
+  width: 100%;
+  height: 25%;
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftContainerBottom .leftContainerBottomPro {
+  width: 85%;
+  height: 80%;
+  border-radius: 30px;
+  background-color: #83cfc5;
+  /* border: 2px solid red; */
+}
+
+.leftContainerBottom .leftContainerBottomPro .leftContainerBottomProText {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.leftContainerBottomProText p {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 550;
+}
+
+.rightContainer {
+  width: 75%;
+  height: 100%;
+  /* border: 2px solid black; */
+  background-color: #d2f4f2;
+}
+
+.rightContainer .rightContainerNavbar {
+  width: 72%;
+  height: 20%;
+  margin: auto;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rightContainer .rightContainerNavbar button {
+  width: 270px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50px;
+  border-style: none;
+}
+
+.rightContainerMiddlePart {
+  width: 90%;
+  height: 70%;
+  margin: auto;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.rightContainerMiddlePartFirst , .rightContainerMiddlePartSecond, .rightContainerMiddlePartThird{
+  width: 80%;
+  height: 25%;
+  background-color: #e7faf7;
+  border-radius: 10px;
+  display: flex;
+}
+ .rightContainerMiddlePartFirstItem1 , .rightContainerMiddlePartSecondItem1 , .rightContainerMiddlePartThirdItem1{
+    width: 20%;
+    height: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightContainerMiddlePartFirstItem2 , .rightContainerMiddlePartSecondItem2 , .rightContainerMiddlePartThirdItem2{
+    width: 40%;
+    height: 80%;
+    margin: auto;
+    margin-left: 100px;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.rightContainerMiddlePartFirstItem2 button , .rightContainerMiddlePartSecondItem2 button , .rightContainerMiddlePartThirdItem2 button {
+    width: 290px;
+    height: 25px;
+    border-radius: 28px;
+    border-style: none;
+    background-color: #93e7dc;
+}
+
+.rightContainerMiddlePartFirstItem3, .rightContainerMiddlePartSecondItem3 , .rightContainerMiddlePartThirdItem3{
+    width: 20%;
+    height: 40%;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+h1{
+    color: #6782a4;
+}
+h3{
+    color: #8ea5c2;
+}
+
+.same{
+    color: #8ea5c2;
+}
+
+.bold{
+    color: #6782a4;
+    font-weight: 600;
+}
+
+
+.rightContainerMiddlePartFirstItem1 img , .rightContainerMiddlePartSecondItem1 img , .rightContainerMiddlePartThirdItem1 img {
+ width: 60px;
+ height: 60px;
+ border-radius: 15px;
+}
