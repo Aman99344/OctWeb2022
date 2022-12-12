@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainContainer {
+  width: 100%;
+  height: 100vh;
+  /* border: 2px solid red; */
+}
+
+.navbar {
+  width: 98%;
+  height: 20%;
+  margin: auto;
+  border-bottom: 4px solid #5783a8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navItems{
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navItems button{
+  width: 60px;
+  padding: 1px;
+  background-color: #291d11;
+  color: #c5bbb3;
+  font-size: 10px;
+}
+
+
+.firstBlock {
+  width: 100%;
+  height: 50%;
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: center;
+}
+
+.upperPart {
+  width: 98%;
+  height: 100%;
+  /* border: 2px solid black; */
+  display: flex;
+  border-bottom: 4px solid #150b0b;
+
+}
+.upperPart img{
+  width: 100%;
+  height: 100%;
+}
+
+.upperPartLeft {
+  width: 50%;
+  height: 100%;
+  border-right: 4px solid #150b0b;
+
+}
+
+.upperPartLeftUpper {
+  width: 100%;
+  height: 40%;
+  border-bottom: 4px solid #150b0b;
+  display: flex;
+}
+
+
+.upperPartLeftUpperFirst {
+  width: 40%;
+  height: 100%;
+  border-right: 4px solid #150b0b;
+  
+}
+.upperPartLeftUpperSecond {
+  width: 60%;
+  height: 100%;
+  /* border: 2px solid red; */
+}
+
+.upperPartLeftLower {
+  width: 100%;
+  height: 60%;
+  /* border: 2px solid blue; */
+  display: flex;
+}
+.upperPartLeftLowerFirst {
+  width: 60%;
+  height: 100%;
+  border-right: 4px solid #150b0b;
+  
+}
+.upperPartLeftLowerSecond {
+  width: 40%;
+  height: 100%;
+  /* border: 2px solid blue; */
+}
+
+.upperPartRight {
+  width: 50%;
+  height: 100%;
+  /* border: 2px solid red; */
+  display: flex;
+}
+.upperPartRightFirst {
+  width: 40%;
+  height: 100%;
+  border-right: 4px solid #150b0b;
+}
+
+.upperPartRightSecond {
+  width: 60%;
+  height: 100%;
+  /* border: 2px solid green; */
+}
+
+.secondBlock{
+  width: 100%;
+  height: 28%;
+  display: flex;
+  justify-content: center;
+  /* border: 4px solid red; */
+}
+
+.lowerPart {
+  width: 98%;
+  height: 100%;
+  border-bottom: 4px solid #150b0b;
+  display: flex;
+}
+
+.lowerPart img{
+  width: 100%;
+  height: 100%;
+}
+.lowerPartLeft {
+  width: 30%;
+  height: 100%;
+  border-right: 4px solid #150b0b;
+
+}
+.lowerPartMiddle {
+  width: 40%;
+  height: 100%;
+  border-right: 4px solid #150b0b;
+}
+.lowerPartRight {
+  width: 30%;
+  height: 100%;
+}
