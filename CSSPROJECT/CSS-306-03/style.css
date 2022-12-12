@@ -11,9 +11,10 @@
 }
 
 .navbar {
-  width: 100%;
+  width: 98%;
   height: 20%;
-  /* border: 2px solid blue; */
+  margin: auto;
+  border-bottom: 4px solid #5783a8;
   display: flex;
   justify-content: center;
   align-items: center;
