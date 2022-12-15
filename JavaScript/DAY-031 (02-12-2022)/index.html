@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        .mainContainer{
+            display: grid;
+            gap: 10px;
+            /* grid-template-rows: 100px; */
+            /* grid-template-columns: 100px; */
+        }
+
+        .one{
+            grid-column: 1;
+        }
+        .two{
+           grid-column: 2/2;
+        }
+        .three{
+            grid-column: 3/3;
+        }
+        .four{
+            grid-column: 4/4;
+        }
+
+.one,
+.two,
+.three,
+.four
+{
+    border: 2px solid red;
+}
+        
+    </style>
+</head>
+
+<body>
+    <div class="mainContainer">
+        <div class="one">one</div>
+        <div class="two">two</div>
+        <div class="three">three</div>
+        <div class="four">four</div>
+    </div>
+
+</body>
+</html>
