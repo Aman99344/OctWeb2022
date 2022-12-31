@@ -10,26 +10,37 @@
 
 <body>
 
-    <button onclick="hello()">Click</button>
+    <div id="hello">Hello priya</div>
+    <button id="button" onclick="hello()">Click</button>
 
 
 
     <script>
+        // function hello() {
+        //     for (let i = 0; i < 5; i++) {
+        //         setTimeout(function () {
+        //             var temp = document.createElement("h1")
+        //             console.log(temp);
+        //             var temp2 = document.createTextNode("hello guys")
+        //             temp.appendChild(temp2)
+        //             document.body.appendChild(temp)
+        //         },1000)
+        //     }
+
+        //}
+
+        // document.getElementById("hello").addEventListener("click", function () {
+        //     console.log("div clicked");
+        // })
+
+        //   function hello(){
+        //     console.log("div clicked s");
+        //   }
+
         function hello() {
-            for (let i = 0; i < 5; i++) {
-                setTimeout(function () {
-                    var temp = document.createElement("h1")
-                    console.log(temp);
-                    var temp2 = document.createTextNode("hello guys")
-                    temp.appendChild(temp2)
-                    document.body.appendChild(temp)
-                },1000)
-            }
-
+            var temp =  document.getElementById("hello")
+            temp.remove();
         }
-
-
-
 
     </script>
 
